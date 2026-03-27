@@ -1,0 +1,36 @@
+body {
+  background: #F5F6F8;
+  font-family: 'DM Sans';
+
+  display: flex;
+  justify-content: center;
+}
+
+.chart-container {
+  width: 700px;
+  margin-top: 60px;
+}
+
+.chart-title {
+  font-size: 20px;
+  fill: #0F1117;
+}
+
+.bar {
+  fill: #5B9BD5;
+  rx: 4;
+}
+
+.bar.highlight {
+  fill: #1B5FA8;
+}
+
+.label {
+  fill: #444750;
+  font-size: 12px;
+}
+
+.value {
+  fill: white;
+  font-size: 12px;
+}
